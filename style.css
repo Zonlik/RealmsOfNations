@@ -1,0 +1,108 @@
+/* ===== ДОНАТ СТРАНИЦА ===== */
+.donate-page {
+    padding: 80px 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.donate-page h1 {
+    font-size: 48px;
+    color: #ffd700;
+    margin-bottom: 16px;
+}
+
+.donate-page > p {
+    font-size: 18px;
+    color: #aaa;
+    margin-bottom: 40px;
+}
+
+.donate-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.donate-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 215, 0, 0.2);
+    border-radius: 16px;
+    padding: 30px 24px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.donate-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 40px rgba(255, 215, 0, 0.15);
+}
+
+.donate-icon {
+    font-size: 48px;
+    margin-bottom: 12px;
+}
+
+.donate-card h3 {
+    font-size: 24px;
+    color: #ffd700;
+    margin-bottom: 8px;
+}
+
+.donate-card .price {
+    font-size: 22px;
+    color: #ff6b6b;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+
+.donate-card ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.donate-card ul li {
+    color: #ccc;
+    padding: 4px 0;
+    font-size: 14px;
+}
+
+.donate-card button {
+    background: #ffd700;
+    color: #0a0a1a;
+    border: none;
+    padding: 12px 32px;
+    border-radius: 30px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.3s, transform 0.3s;
+    width: 100%;
+}
+
+.donate-card button:hover {
+    background: #e6c200;
+    transform: scale(1.02);
+}
+
+.donate-info {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 16px;
+    padding: 30px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.donate-info h3 {
+    color: #ffd700;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.donate-info p {
+    color: #ccc;
+    padding: 6px 0;
+}
