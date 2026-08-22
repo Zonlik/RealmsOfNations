@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Донат — Realm of Nations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">⚔️ Realm of Nations</div>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="donate.html" class="active">Донат</a></li>
+                <li><a href="rules.html">Правила</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="donate-page">
+        <h1>👑 Донат-меню</h1>
+        <p>Выбери титул и получи уникальные привилегии на сервере!</p>
+
+        <div class="donate-grid">
+            <!-- Торговец -->
+            <div class="donate-card">
+                <div class="donate-icon">🧾</div>
+                <h3>Торговец</h3>
+                <div class="price">100 ₽</div>
+                <ul>
+                    <li>🎁 /kit trader</li>
+                    <li>🗑️ /trash</li>
+                    <li>🧢 /hat</li>
+                    <li>🧹 /clear</li>
+                    <li>💼 Доступ к магазину</li>
+                    <li>🏠 1 дом</li>
+                </ul>
+                <button onclick="buyDonate('Торговец', 100)">Купить</button>
+            </div>
+
+            <!-- Рыцарь -->
+            <div class="donate-card">
+                <div class="donate-icon">🛡️</div>
+                <h3>Рыцарь</h3>
+                <div class="price">300 ₽</div>
+                <ul>
+                    <li>🎁 /kit knight</li>
+                    <li>🕊️ /fly</li>
+                    <li>🧢 /hat, /clear, /trash</li>
+                    <li>🏠 2 дома</li>
+                    <li>💼 Доступ к магазину</li>
+                    <li>🏷️ Префикс: 🛡️ Рыцарь</li>
+                </ul>
+                <button onclick="buyDonate('Рыцарь', 300)">Купить</button>
+            </div>
+
+            <!-- Барон -->
+            <div class="donate-card">
+                <div class="donate-icon">⚔️</div>
+                <h3>Барон</h3>
+                <div class="price">500 ₽</div>
+                <ul>
+                    <li>🎁 /kit baron</li>
+                    <li>🕊️ /fly</li>
+                    <li>⏳ /rtp без кулдауна</li>
+                    <li>🏠 3 дома</li>
+                    <li>🌈 Цветной ник</li>
+                    <li>🏷️ Префикс: ⚔️ Барон</li>
+                </ul>
+                <button onclick="buyDonate('Барон', 500)">Купить</button>
+            </div>
+
+            <!-- Граф -->
+            <div class="donate-card">
+                <div class="donate-icon">🏰</div>
+                <h3>Граф</h3>
+                <div class="price">800 ₽</div>
+                <ul>
+                    <li>🎁 /kit count</li>
+                    <li>🕊️ /fly</li>
+                    <li>✏️ /nick</li>
+                    <li>⏳ /rtp без кулдауна</li>
+                    <li>🏠 5 домов</li>
+                    <li>🌈 Цветной ник</li>
+                    <li>🏷️ Префикс: 🏰 Граф</li>
+                </ul>
+                <button onclick="buyDonate('Граф', 800)">Купить</button>
+            </div>
+
+            <!-- Герцог -->
+            <div class="donate-card">
+                <div class="donate-icon">👑</div>
+                <h3>Герцог</h3>
+                <div class="price">1200 ₽</div>
+                <ul>
+                    <li>🎁 /kit duke</li>
+                    <li>🕊️ /fly</li>
+                    <li>✏️ /nick</li>
+                    <li>🔇 /mute, /kick</li>
+                    <li>⏳ /rtp без кулдауна</li>
+                    <li>🏠 7 домов</li>
+                    <li>🏷️ Префикс: 👑 Герцог</li>
+                </ul>
+                <button onclick="buyDonate('Герцог', 1200)">Купить</button>
+            </div>
+
+            <!-- Король -->
+            <div class="donate-card">
+                <div class="donate-icon">💎</div>
+                <h3>Король</h3>
+                <div class="price">2500 ₽</div>
+                <ul>
+                    <li>🎁 /kit king</li>
+                    <li>🕊️ /fly</li>
+                    <li>✏️ /nick</li>
+                    <li>🌍 /tp, /gamemode</li>
+                    <li>🔇 /mute, /kick</li>
+                    <li>⏳ Без кулдауна на всё</li>
+                    <li>🏠 10 домов</li>
+                    <li>🏷️ Префикс: 💎 Король</li>
+                </ul>
+                <button onclick="buyDonate('Король', 2500)">Купить</button>
+            </div>
+        </div>
+
+        <div class="donate-info">
+            <h3>📜 Как купить?</h3>
+            <p>1. Выбери титул и нажми "Купить"</p>
+            <p>2. Оплати удобным способом: 💳 Карта, 📱 СБП, ₿ Криптовалюта</p>
+            <p>3. После оплаты напиши администратору на сервере: <strong>/msg Admin</strong></p>
+            <p>4. Получи титул и наслаждайся привилегиями!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 Realm of Nations</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
